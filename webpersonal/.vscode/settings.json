@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "D:\\Miniconda3\\envs\\django2\\python.exe",
+    "python.linting.mypyArgs": [
+        "--ignore-missing-imports",
+        "--follow-imports=silent"
+    ]
+}

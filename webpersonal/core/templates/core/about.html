@@ -1,0 +1,28 @@
+
+{% extends 'core/base.html' %}
+{% block title %}Acerca de {% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/about-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>Acerca de</h1>
+<span class="subheading">Biografía</span>
+{% endblock %}
+
+
+
+{% block content %}
+<div class="row">
+<div class="col-lg-3 col-md-4 offset-lg-1">
+          <img class="img-fluid avatar" src="{% static 'core/img/avatar.png' %}" alt="">
+        </div>
+        <div class="col-lg-7 col-md-8">
+          <h2 class="section-heading">Diego Sunun</h2>   
+           <p> 
+            Me llamo Diego Armando Flores Sunun, estoy tomando el curso de Master Django en UDEMY.COM.
+            Estudio en la Escuela Militar de Ingenieros y estoy desarrollando algunos modulos que forman parte de un proyecto 
+            que facilitará la forma en que fluye la información entre los directivos y todo el personal discente de la Institución. 
+        </P>
+        </div>    
+    </div>
+ {% endblock %}
